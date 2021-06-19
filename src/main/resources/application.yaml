@@ -1,8 +1,7 @@
 spring:
   datasource:
     url: ${DB_URL}
-    username: postgres
-    password: veeru
+
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
