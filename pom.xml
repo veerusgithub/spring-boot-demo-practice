@@ -53,19 +53,19 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<!--<configuration>
+				<configuration>
 					<executable>true</executable>
-				</configuration>-->
+				</configuration>
 
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.6.2</version>
 				<configuration>
 					<release>1.8</release>
 				</configuration>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 
