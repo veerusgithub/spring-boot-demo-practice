@@ -14,7 +14,7 @@
 	<name>conference-app</name>
 	<description>Plural sight spring boot learning course practice</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -53,9 +53,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+				<!--<configuration>
 					<executable>true</executable>
-				</configuration>
+				</configuration>-->
 
 			</plugin>
 			<!--<plugin>
